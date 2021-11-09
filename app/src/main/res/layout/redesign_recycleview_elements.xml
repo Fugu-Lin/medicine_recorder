@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:id="@+id/rl_book_layout">
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/pick_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/show_image"
+        android:text="date_and_time"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pick_date_time"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/show_image"
+        android:text="event"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
